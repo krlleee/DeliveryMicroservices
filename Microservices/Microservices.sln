@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Microservice", "Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.WebApi", "Gateway.WebApi\Gateway.WebApi.csproj", "{530F1B0C-8CC6-48AE-BB5D-8D82A7161505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Microservice", "Identity.Microservice\Identity.Microservice.csproj", "{5069A660-87EC-4637-A6C8-CDB140A6ADB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Microservice", "Identity.Microservice\Identity.Microservice.csproj", "{5069A660-87EC-4637-A6C8-CDB140A6ADB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Microservice", "Order.Microservice\Order.Microservice.csproj", "{FD288E6F-FBFA-4405-B412-4896434D5A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{5069A660-87EC-4637-A6C8-CDB140A6ADB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5069A660-87EC-4637-A6C8-CDB140A6ADB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5069A660-87EC-4637-A6C8-CDB140A6ADB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD288E6F-FBFA-4405-B412-4896434D5A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD288E6F-FBFA-4405-B412-4896434D5A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD288E6F-FBFA-4405-B412-4896434D5A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD288E6F-FBFA-4405-B412-4896434D5A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{C5BA9DA6-5BCE-4AE1-BE36-8438E132B1EB} = {563B4C1E-7C8B-4279-907F-07B742D4E407}
 		{D9A6E904-F9F9-43CC-BCFD-E4D11C4B9030} = {563B4C1E-7C8B-4279-907F-07B742D4E407}
 		{5069A660-87EC-4637-A6C8-CDB140A6ADB2} = {563B4C1E-7C8B-4279-907F-07B742D4E407}
+		{FD288E6F-FBFA-4405-B412-4896434D5A6D} = {563B4C1E-7C8B-4279-907F-07B742D4E407}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {724657BD-FA65-4A70-95BC-8D6F4AB207A7}

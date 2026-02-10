@@ -49,7 +49,9 @@ builder.Services.AddOpenIddict()
 
         // ASP.NET Core integration
         options.UseAspNetCore()
-               .EnableTokenEndpointPassthrough(); // VAŽNO: omogućava custom logiku u kontroleru
+               .EnableTokenEndpointPassthrough();
+
+        options.DisableAccessTokenEncryption();
     })
     .AddValidation(options =>
     {
